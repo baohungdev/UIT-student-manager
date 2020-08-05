@@ -33,7 +33,7 @@
                         include('init.php');
 
                         $class_result=mysqli_query($conn,"SELECT `name` FROM `class`");
-                            echo '<select name="class">'
+                            echo '<select name="class">';
                             echo '<option selected disabled>Chọn lớp</option>';
                         while($row = mysqli_fetch_array($class_result)){
                             $display=$row['name'];
