@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/homepage.css" />
+    <link
+      rel="stylesheet"
+      href="./css/font-awesome-4.7.0/css/font-awesome.css"
+    />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <span class="heading">Quản lý điểm UIT</span>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li>
+            <a href="https://www.uit.edu.vn/">Trang chủ</a>
+          </li>
+          <li>
+            <a href="login.php">Đăng nhập</a>
+          </li>
+          <li class="dropdown" onclick="toggleDisplay('1')">
+            <a href="#" class="dropbtn"
+              >Chuyên ngành &nbsp
+              <span class="fa fa-angle-down"></span>
+            </a>
+            <div class="dropdown-content" id="1">
+              <a href="">Hệ thống thông tin</a>
+              <a href="">Thương mại điện tử</a>
+              <a href="">An toàn thông tin</a>
+              <a href="">MMT & TT</a>
+              <a href="">Khoa học máy tính</a>
+              <a href="">Công nghệ phần mềm</a>
+            </div>
+          </li>
+          <li class="dropdown" onclick="toggleDisplay('2')">
+            <a href="#" class="dropbtn"
+              >Sinh viên &nbsp
+              <span class="fa fa-angle-down"></span>
+            </a>
+            <div class="dropdown-content" id="2">
+              <a href="./login.php">Xem điểm</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="slider">
+        <img src="images/home3.jpg" class="slider-image" alt="img" />
+      </div>
+      <hr>
+      <div class="main">
+        <span>About the University</span>
+        <p>
+          Trường Đại học Công nghệ Thông tin (ĐH CNTT), Đại học Quốc gia Thành
+          phố Hồ Chí Minh (ĐHQG-HCM) là trường đại học công lập đào tạo về công
+          nghệ thông tin và truyền thông (CNTT&TT) được thành lập theo quyết
+          định số 134/2006/QĐ-TTg ngày 08/06/2006 của Thủ tướng Chính phủ. Là
+          trường thành viên của ĐHQG-HCM, trường ĐH CNTT có nhiệm vụ đào tạo
+          nguồn nhân lực công nghệ thông tin chất lượng cao, góp phần tích cực
+          vào sự phát triển của nền công nghiệp công nghệ thông tin Việt Nam,
+          đồng thời tiến hành nghiên cứu khoa học và chuyển giao công nghệ thông
+          tin tiên tiến, đặc biệt là hướng vào các ứng dụng nhằm góp phần đẩy
+          mạnh sự nghiệp công nghiệp hóa, hiện đại hóa đất nước. Sau hơn 10 năm
+          xây dựng và phát triển, hiện trường ĐH CNTT sở hữu cơ sở vật chất gồm
+          khu học tập, nghiên cứu và làm việc được đầu tư xây dựng khang trang,
+          hiện đại với tổng diện tích trên 14 hecta trong khuôn viên khu đô thị
+          ĐHQG-HCM. Tổng quan về khuôn viên trường ĐH CNTT
+        </p>
+       <hr>
+
+      <div class="footer">
+        <div class="footer--contact">
+          <span>Contact Us</span>
+          <p>18520061@gm.uit.edu.vn</p>
+          <p>18520293@gm.uit.edu.vn</p>
+          <p>18521565@gm.uit.edu.vn</p>
+          
+        </div>
+        
+        <div class="footer--info">
+          <span>Links</span>
+          <a href="https://www.uit.edu.vn/">Trang chủ</a>
+          <a href="login.php">Đăng nhập</a>
+          <a href="login.php">Kết quả</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </body>
+</html>
